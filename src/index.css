@@ -4,6 +4,6 @@
 
 @layer components {
     .header-icon {
-        @apply relative flex items-center justify-center h-12 w-fit p-2 top-6 ml-6 mr-6 font-semibold bg-black text-white hover:bg-white hover:text-black outline hover:scale-125 hover:font-bold outline-white outline-1 rounded transition-all;
+        @apply relative flex items-center justify-center h-12 w-fit p-2 top-6 ml-6 mr-6 font-semibold bg-black text-white hover:bg-white hover:text-black outline hover:scale-125 hover:font-bold active:bg-gray-400 active:scale-110 outline-white outline-1 rounded transition-all;
     }
 }
