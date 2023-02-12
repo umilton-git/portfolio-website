@@ -15,3 +15,13 @@ This will be the second version of my portfolio website.  I want to update to bo
 - [ ] Look into more ThreeJS functionalities
 - [ ] Create Dark Mode via Tailwind
 - [ ] Choose fonts for website 
+- [ ] Create Icon for Website
+- [ ] Create Title for Website
+
+## NPM Repositories Used
+- CreateReactApp
+- TailwindCSS
+- Three.JS
+- Tachyons
+- React-wavify
+ 
