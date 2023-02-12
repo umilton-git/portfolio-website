@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / 500, 0.01, 10 );
+const camera = new THREE.PerspectiveCamera( 50, window.innerWidth / 200, 0.01, 10 );
 camera.position.z = 1;
 
 const scene = new THREE.Scene();
@@ -16,7 +16,7 @@ const mesh = new THREE.Mesh( geometry, material );
 scene.add( mesh );
 
 const renderer = new THREE.WebGLRenderer( { antialias: false, alpha: true } );
-renderer.setSize( window.innerWidth, 500);
+renderer.setSize( window.innerWidth, 200);
 renderer.setAnimationLoop( animation );
 document.body.appendChild( renderer.domElement );
 
