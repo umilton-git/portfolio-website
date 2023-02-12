@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div className="fixed top-0 h-24 w-screen m-0 flex flex-row justify-center bg-black text-white">
             <HeaderIcon icon={<IoMdHome size="28"/>} />
-            <p className="header-icon">GitHub</p>
-            <p className="header-icon">LinkedIn</p>
+            <a href="https://github.com/umilton-git" className="header-icon">GitHub</a>
+            <a href="https://www.linkedin.com/in/ulysses-milton/" className="header-icon">LinkedIn</a>
             <HeaderIcon icon={<GiConsoleController size="28"/>} />
         </div>
     );
